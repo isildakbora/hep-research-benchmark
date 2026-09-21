@@ -1,3 +1,4 @@
+<!-- Updated: 2026-09-21T21:37:15+00:00; optional second-stage self-grading -->
 <!-- Created: 2026-09-21T20:03:53+00:00 -->
 # Bir LLM'e depoyu verip kendini sınatmak
 
@@ -22,6 +23,8 @@ Bu bir kör benchmark veya yayımlanabilir model karşılaştırması değildir.
 Bu istemle `text` profilinde 12 yanıt alınır; standart önerideki üç tekrar tamamlanmış olmaz. Bir asistanı yalnız metin profiline uygun kullanamıyorsanız elde edilen çıktıyı standart text koşusu gibi etiketlemeyin. `tools` ve `full` için izin verilen araçlar, ekler ve görev kapsamı `RUN_GUIDE_TR.md` içindedir.
 
 ## Puanlama nasıl yapılır?
+
+Yanıtlar tamamlanıp sabitlendikten sonra aynı modelle ikinci aşamaya geçmek için **[öz puanlama promptunu](SELF_GRADING_TR.md)** verin. Bu isteğe bağlı akış yanıt üretiminden sonra başlar; çıktısı öz değerlendirme olarak kaydedilir. Aşağıdaki ayrı değerlendirici akışı bağımsız puanlama içindir.
 
 Yanıtlar sabitlendikten sonra ayrı değerlendirici, `evaluator/answer_key.jsonl` rubriğini kullanır; kod yanıtlarını ayrı ortamda çalıştırır ve kanıtları kaydeder. Aynı LLM'in kendi cevabını puanlaması yalnız öz değerlendirmedir. Ayrı LLM hakem de insan uzman doğrulamasının yerine geçmez.
 

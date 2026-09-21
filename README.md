@@ -1,8 +1,11 @@
+<!-- Updated: 2026-09-21T21:37:15+00:00; self-grading guide -->
 <!-- Updated: 2026-09-21T20:03:53+00:00; public access and self-test scope -->
 <!-- Created: 2026-09-21 22:13:12 +03 -->
 # HEP Research Benchmark — v0.1 tasarım ve başlangıç paketi
 
 LLM’e depoyu vererek geliştirme denemesi yaptırmak için: **[LLM öz değerlendirme yönergesi](SELF_TEST_TR.md)**. Cevap anahtarı da açıktır; bu kullanım kör benchmark değildir.
+
+Yanıtlar tamamlandıktan sonra aynı modele puanlatmak için: **[Öz puanlama promptu](SELF_GRADING_TR.md)**. Bu sonuçlar öz değerlendirme olarak etiketlenir.
 
 GitHub'dan indirip ilk model denemesini yapmak için: **[Adım adım çalıştırma kılavuzu](RUN_GUIDE_TR.md)**.
 
@@ -20,7 +23,7 @@ Bu paket, birkaç LLM üzerinde kontrollü bir ilk deneme yapmak ve daha sonra b
 - `public/tasks.jsonl`: 16 başlangıç görevinin makine tarafından okunabilir kayıtları.
 - `public/prompts/{text,tools,full}/`: profil için doğru istemler.
 - `public/assets/`: yalnız gerekli koşulda modele gösterilecek görseller/veriler.
-- `evaluator/answer_key.jsonl`: referanslar, toleranslar, dört ölçüt ve kritik koşullar. **Modele verme.**
+- `evaluator/answer_key.jsonl`: referanslar, toleranslar, dört ölçüt ve kritik koşullar. **Yanıt üretirken aday modele verme.** Öz puanlama için ancak yanıtlar sabitlendikten sonra `SELF_GRADING_TR.md` akışını kullan.
 - `templates/results_*.csv`: üç tekrar için boş ölçüm tabloları.
 - `templates/run_config.json`: model ve koşu ayarları.
 - `templates/system_prompt.txt`: tüm modellere ortak temel istem.
@@ -41,7 +44,7 @@ python3 scripts/export_task.py --task T301 --profile full --out runs/modelA/full
 ```
 
 4. Yanıtı, üretilen kodu, araç kayıtlarını ve maliyeti sakla. Aynı profil içinde her görevi üç ayrı yeni oturumda çalıştır. Görevler arasında bellek veya dosya paylaşma.
-5. Kodları ayrı değerlendirme ortamında çalıştır, referans/rubrik ile puanla ve ilgili CSV'yi doldur. `passed` 0/1, `partial_score` 0–1; bunlar modelin kendi beyanı değildir.
+5. Bağımsız değerlendirme akışında kodları ayrı değerlendirme ortamında çalıştır, referans/rubrik ile puanla ve ilgili CSV'yi doldur. `passed` 0/1, `partial_score` 0–1; bunlar modelin kendi beyanı değildir.
 6. İlgili CSV'deki tüm `REPLACE_MODEL_ID` alanlarını değiştir. Birden çok modelin CSV'sini tek başlık altında birleştirebilirsin. Farklı profiller dosyada bulunabilir fakat ayrı raporlanır.
 
 ```bash
@@ -51,6 +54,8 @@ python3 scripts/score_results.py --tasks public/tasks.jsonl --results runs/resul
 Boş şablonlar `pending` olarak kalır; araç bunlara puan vermez. Bir görev eksikse toplam skor bloke edilir. Tamamlanan starter koşularının özetleri yalnız açıklayıcıdır; doğrulanmış model sıralaması sayılmaz.
 
 ## Modellerin alacağı dosyalar
+
+Bu bölüm kontrollü aday yanıt üretimi içindir. Öz puanlamada cevap anahtarı erişimi yalnız yanıtların sabitlenmesinden sonraki değerlendirme aşamasına aittir.
 
 Değerlendirilen ajanı bu projenin kökünde başlatma. Ayrı boş çalışma alanına sadece `export_task.py` çıktısını koy. `evaluator/`, diğer görevler, diğer profil istemleri ve sonuç CSV'leri modelin erişiminde olmamalı. Bu paket başlangıç/development paketi olduğu için bütün yanıt anahtarları kullanıcıya açıktır; gizli benchmark değildir.
 
