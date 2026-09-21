@@ -1,0 +1,24 @@
+{
+  "task_id": null,
+  "model_id": null,
+  "profile": null,
+  "repeat": null,
+  "grader_id": null,
+  "criterion_scores": {
+    "C1": null,
+    "C2": null,
+    "C3": null,
+    "C4": null
+  },
+  "evidence": {
+    "C1": null,
+    "C2": null,
+    "C3": null,
+    "C4": null
+  },
+  "executed_tests": [],
+  "passed": null,
+  "partial_score": null,
+  "failure_tags": [],
+  "adjudication_notes": null
+}

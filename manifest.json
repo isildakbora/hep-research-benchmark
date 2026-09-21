@@ -1,0 +1,68 @@
+{
+  "version": "0.1.0-design",
+  "status": "design_and_public_starter_only",
+  "family_count": 16,
+  "private_test_family_count": 0,
+  "independently_expert_validated_family_count": 0,
+  "model_evaluations": 0,
+  "modules": {
+    "M1": 2,
+    "M2": 2,
+    "M3": 2,
+    "M4": 2,
+    "M5": 2,
+    "M6": 2,
+    "M7": 2,
+    "M8": 2
+  },
+  "profiles": {
+    "text": [
+      "T101",
+      "T102",
+      "T201",
+      "T202",
+      "T401",
+      "T402",
+      "T501",
+      "T502",
+      "T601",
+      "T602",
+      "T701",
+      "T702"
+    ],
+    "tools": [
+      "T101",
+      "T102",
+      "T201",
+      "T202",
+      "T401",
+      "T402",
+      "T501",
+      "T502",
+      "T601",
+      "T602",
+      "T701",
+      "T702",
+      "T801",
+      "T802"
+    ],
+    "full": [
+      "T101",
+      "T102",
+      "T201",
+      "T202",
+      "T301",
+      "T302",
+      "T401",
+      "T402",
+      "T501",
+      "T502",
+      "T601",
+      "T602",
+      "T701",
+      "T702",
+      "T801",
+      "T802"
+    ]
+  }
+}

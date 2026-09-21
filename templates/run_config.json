@@ -1,0 +1,36 @@
+{
+  "benchmark_version": "0.1.0-design",
+  "model_id": null,
+  "provider": null,
+  "model_version_or_checkpoint_hash": null,
+  "run_date_utc": null,
+  "quantization": null,
+  "runtime_version": null,
+  "hardware": null,
+  "profile": "full",
+  "harness_version": null,
+  "system_prompt_sha256": null,
+  "task_manifest_sha256": null,
+  "container_digest": null,
+  "python_version": null,
+  "temperature": null,
+  "top_p": null,
+  "reasoning_setting": null,
+  "seed_policy": "record supported seeds; no guaranteed API determinism",
+  "repeats": 3,
+  "internet_access": false,
+  "persistent_memory": false,
+  "standard_budget": {
+    "seconds": 600,
+    "max_generated_tokens": 8192,
+    "max_tool_calls": 30
+  },
+  "integration_budget": {
+    "seconds": 1800,
+    "max_generated_tokens": 24576,
+    "max_tool_calls": 100
+  },
+  "budget_status": "proposed; calibrate on public development then freeze",
+  "transport_retries": 2,
+  "notes": "Missing provider telemetry is null, not zero. Different profiles are separate comparisons."
+}

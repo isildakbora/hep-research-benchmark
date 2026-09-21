@@ -1,0 +1,97 @@
+family_id,module_id,topic,status,proposed_split,notes
+F101,M1,Shower parameter versus MSbar coupling,draft_starter,public_development,Grouping/source independence must be checked before split freeze; no human expert validation yet.
+F102,M1,Evidence-grounded source reading,draft_starter,public_development,Grouping/source independence must be checked before split freeze; no human expert validation yet.
+F103,M1,Branching ratio versus partial width,planned_not_written,public_development,Grouping/source independence must be checked before split freeze; no human expert validation yet.
+F104,M1,Fiducial versus inclusive observables,planned_not_written,private_test_candidate,Grouping/source independence must be checked before split freeze; no human expert validation yet.
+F105,M1,Cross section versus event yield,planned_not_written,private_test_candidate,Grouping/source independence must be checked before split freeze; no human expert validation yet.
+F106,M1,PDG scheme/scale and dated sources,planned_not_written,private_test_candidate,Grouping/source independence must be checked before split freeze; no human expert validation yet.
+F107,M1,Conflicting source claims,planned_not_written,private_test_candidate,Grouping/source independence must be checked before split freeze; no human expert validation yet.
+F108,M1,Unsupported discovery claim,planned_not_written,private_test_candidate,Grouping/source independence must be checked before split freeze; no human expert validation yet.
+F109,M1,Source-grounded detector specification,planned_not_written,private_test_candidate,Grouping/source independence must be checked before split freeze; no human expert validation yet.
+F110,M1,Knowledge versus supplied-corpus evidence,planned_not_written,private_test_candidate,Grouping/source independence must be checked before split freeze; no human expert validation yet.
+F111,M1,Missing acceptance information,planned_not_written,private_test_candidate,Grouping/source independence must be checked before split freeze; no human expert validation yet.
+F112,M1,Source citation entailment,planned_not_written,private_test_candidate,Grouping/source independence must be checked before split freeze; no human expert validation yet.
+F201,M2,Invariant mass and longitudinal boosts,draft_starter,public_development,Grouping/source independence must be checked before split freeze; no human expert validation yet.
+F202,M2,Tree-level QED angular integration,draft_starter,public_development,Grouping/source independence must be checked before split freeze; no human expert validation yet.
+F203,M2,Two-body decay kinematics,planned_not_written,public_development,Grouping/source independence must be checked before split freeze; no human expert validation yet.
+F204,M2,Rapidity versus pseudorapidity,planned_not_written,private_test_candidate,Grouping/source independence must be checked before split freeze; no human expert validation yet.
+F205,M2,QCD running within specified order,planned_not_written,private_test_candidate,Grouping/source independence must be checked before split freeze; no human expert validation yet.
+F206,M2,Color factors in a specified process,planned_not_written,private_test_candidate,Grouping/source independence must be checked before split freeze; no human expert validation yet.
+F207,M2,Dimensional analysis of EFT operators,planned_not_written,private_test_candidate,Grouping/source independence must be checked before split freeze; no human expert validation yet.
+F208,M2,Symmetry and selection rules,planned_not_written,private_test_candidate,Grouping/source independence must be checked before split freeze; no human expert validation yet.
+F209,M2,Soft/collinear limits,planned_not_written,private_test_candidate,Grouping/source independence must be checked before split freeze; no human expert validation yet.
+F210,M2,Threshold versus high-energy approximations,planned_not_written,private_test_candidate,Grouping/source independence must be checked before split freeze; no human expert validation yet.
+F211,M2,Amplitude interference,planned_not_written,private_test_candidate,Grouping/source independence must be checked before split freeze; no human expert validation yet.
+F212,M2,Renormalization scale and truncation assumptions,planned_not_written,private_test_candidate,Grouping/source independence must be checked before split freeze; no human expert validation yet.
+F301,M3,Tree QED topology,draft_starter,public_development,Grouping/source independence must be checked before split freeze; no human expert validation yet.
+F302,M3,Electron self-energy topology,draft_starter,public_development,Grouping/source independence must be checked before split freeze; no human expert validation yet.
+F303,M3,Crossing and external-state conventions,planned_not_written,public_development,Grouping/source independence must be checked before split freeze; no human expert validation yet.
+F304,M3,Charge and flavor conservation,planned_not_written,private_test_candidate,Grouping/source independence must be checked before split freeze; no human expert validation yet.
+F305,M3,Momentum routing at vertices,planned_not_written,private_test_candidate,Grouping/source independence must be checked before split freeze; no human expert validation yet.
+F306,M3,Tree versus loop graph counting,planned_not_written,private_test_candidate,Grouping/source independence must be checked before split freeze; no human expert validation yet.
+F307,M3,Allowed vertices in specified model,planned_not_written,private_test_candidate,Grouping/source independence must be checked before split freeze; no human expert validation yet.
+F308,M3,Identical particles and combinatorics,planned_not_written,private_test_candidate,Grouping/source independence must be checked before split freeze; no human expert validation yet.
+F309,M3,Diagram to amplitude in fixed conventions,planned_not_written,private_test_candidate,Grouping/source independence must be checked before split freeze; no human expert validation yet.
+F310,M3,Multiple diagrams and interference,planned_not_written,private_test_candidate,Grouping/source independence must be checked before split freeze; no human expert validation yet.
+F311,M3,Ward identity in a complete stated amplitude,planned_not_written,private_test_candidate,Grouping/source independence must be checked before split freeze; no human expert validation yet.
+F312,M3,Equivalent redrawings and distractor edges,planned_not_written,private_test_candidate,Grouping/source independence must be checked before split freeze; no human expert validation yet.
+F401,M4,Signed-weight histogram implementation,draft_starter,public_development,Grouping/source independence must be checked before split freeze; no human expert validation yet.
+F402,M4,Periodic delta R repair,draft_starter,public_development,Grouping/source independence must be checked before split freeze; no human expert validation yet.
+F403,M4,ROOT/uproot branch and jagged selection,planned_not_written,public_development,Grouping/source independence must be checked before split freeze; no human expert validation yet.
+F404,M4,Awkward event versus object mask,planned_not_written,private_test_candidate,Grouping/source independence must be checked before split freeze; no human expert validation yet.
+F405,M4,Doxygen comments with physics contracts,planned_not_written,private_test_candidate,Grouping/source independence must be checked before split freeze; no human expert validation yet.
+F406,M4,Numerical stability in four-vectors,planned_not_written,private_test_candidate,Grouping/source independence must be checked before split freeze; no human expert validation yet.
+F407,M4,MadGraph process card and execution,planned_not_written,private_test_candidate,Grouping/source independence must be checked before split freeze; no human expert validation yet.
+F408,M4,Pythia matching configuration validation,planned_not_written,private_test_candidate,Grouping/source independence must be checked before split freeze; no human expert validation yet.
+F409,M4,Delphes configuration and detector intent,planned_not_written,private_test_candidate,Grouping/source independence must be checked before split freeze; no human expert validation yet.
+F410,M4,C++ kernel parity and GPU-porting subtrack,planned_not_written,private_test_candidate,Grouping/source independence must be checked before split freeze; no human expert validation yet.
+F411,M4,Histogram flow bins and bin widths,planned_not_written,private_test_candidate,Grouping/source independence must be checked before split freeze; no human expert validation yet.
+F412,M4,General hidden-input code repair,planned_not_written,private_test_candidate,Grouping/source independence must be checked before split freeze; no human expert validation yet.
+F501,M5,Poisson discovery with fixed background,draft_starter,public_development,Grouping/source independence must be checked before split freeze; no human expert validation yet.
+F502,M5,MC normalization and propagated uncertainty,draft_starter,public_development,Grouping/source independence must be checked before split freeze; no human expert validation yet.
+F503,M5,Correlated nuisance parameters,planned_not_written,public_development,Grouping/source independence must be checked before split freeze; no human expert validation yet.
+F504,M5,Profile likelihood boundaries,planned_not_written,private_test_candidate,Grouping/source independence must be checked before split freeze; no human expert validation yet.
+F505,M5,Expected versus observed limits,planned_not_written,private_test_candidate,Grouping/source independence must be checked before split freeze; no human expert validation yet.
+F506,M5,Local versus global significance,planned_not_written,private_test_candidate,Grouping/source independence must be checked before split freeze; no human expert validation yet.
+F507,M5,Sparse bins and asymptotic limitations,planned_not_written,private_test_candidate,Grouping/source independence must be checked before split freeze; no human expert validation yet.
+F508,M5,Covariance in unfolding,planned_not_written,private_test_candidate,Grouping/source independence must be checked before split freeze; no human expert validation yet.
+F509,M5,Interval coverage and width in pseudoexperiments,planned_not_written,private_test_candidate,Grouping/source independence must be checked before split freeze; no human expert validation yet.
+F510,M5,Fit bias under model mismatch,planned_not_written,private_test_candidate,Grouping/source independence must be checked before split freeze; no human expert validation yet.
+F511,M5,Negative weights and MC statistics,planned_not_written,private_test_candidate,Grouping/source independence must be checked before split freeze; no human expert validation yet.
+F512,M5,Likelihood model serialization and parity,planned_not_written,private_test_candidate,Grouping/source independence must be checked before split freeze; no human expert validation yet.
+F601,M6,Exposure-normalized occupancy,draft_starter,public_development,Grouping/source independence must be checked before split freeze; no human expert validation yet.
+F602,M6,Correlated histogram residuals,draft_starter,public_development,Grouping/source independence must be checked before split freeze; no human expert validation yet.
+F603,M6,Axis scale and units,planned_not_written,public_development,Grouping/source independence must be checked before split freeze; no human expert validation yet.
+F604,M6,Ratio/pull plots and uncertainty bands,planned_not_written,private_test_candidate,Grouping/source independence must be checked before split freeze; no human expert validation yet.
+F605,M6,Efficiency versus acceptance,planned_not_written,private_test_candidate,Grouping/source independence must be checked before split freeze; no human expert validation yet.
+F606,M6,Resolution versus bias,planned_not_written,private_test_candidate,Grouping/source independence must be checked before split freeze; no human expert validation yet.
+F607,M6,Trigger turn-on and prescales,planned_not_written,private_test_candidate,Grouping/source independence must be checked before split freeze; no human expert validation yet.
+F608,M6,Pileup versus detector drift,planned_not_written,private_test_candidate,Grouping/source independence must be checked before split freeze; no human expert validation yet.
+F609,M6,Channel anomaly versus root cause,planned_not_written,private_test_candidate,Grouping/source independence must be checked before split freeze; no human expert validation yet.
+F610,M6,Overflow/underflow and rebinning,planned_not_written,private_test_candidate,Grouping/source independence must be checked before split freeze; no human expert validation yet.
+F611,M6,Data/MC common normalization,planned_not_written,private_test_candidate,Grouping/source independence must be checked before split freeze; no human expert validation yet.
+F612,M6,Calibration extrapolation limitations,planned_not_written,private_test_candidate,Grouping/source independence must be checked before split freeze; no human expert validation yet.
+F701,M7,Differential cross-section repair,draft_starter,public_development,Grouping/source independence must be checked before split freeze; no human expert validation yet.
+F702,M7,Clean weighted-uncertainty control,draft_starter,public_development,Grouping/source independence must be checked before split freeze; no human expert validation yet.
+F703,M7,Leakage in correlated train/test records,planned_not_written,public_development,Grouping/source independence must be checked before split freeze; no human expert validation yet.
+F704,M7,Double-counted systematics,planned_not_written,private_test_candidate,Grouping/source independence must be checked before split freeze; no human expert validation yet.
+F705,M7,Missing covariance evidence,planned_not_written,private_test_candidate,Grouping/source independence must be checked before split freeze; no human expert validation yet.
+F706,M7,Blind-analysis and test-based cut optimization,planned_not_written,private_test_candidate,Grouping/source independence must be checked before split freeze; no human expert validation yet.
+F707,M7,Incorrect significance prescription,planned_not_written,private_test_candidate,Grouping/source independence must be checked before split freeze; no human expert validation yet.
+F708,M7,Fabricated citations versus real evidence,planned_not_written,private_test_candidate,Grouping/source independence must be checked before split freeze; no human expert validation yet.
+F709,M7,Silent sample/budget changes,planned_not_written,private_test_candidate,Grouping/source independence must be checked before split freeze; no human expert validation yet.
+F710,M7,Numerical shortcut versus executed provenance,planned_not_written,private_test_candidate,Grouping/source independence must be checked before split freeze; no human expert validation yet.
+F711,M7,Clean alternative valid implementation,planned_not_written,private_test_candidate,Grouping/source independence must be checked before split freeze; no human expert validation yet.
+F712,M7,Insufficient detector information for root cause,planned_not_written,private_test_candidate,Grouping/source independence must be checked before split freeze; no human expert validation yet.
+F801,M8,Executed dimuon cutflow and spectrum,draft_starter,public_development,Grouping/source independence must be checked before split freeze; no human expert validation yet.
+F802,M8,Executed binned likelihood and interval,draft_starter,public_development,Grouping/source independence must be checked before split freeze; no human expert validation yet.
+F803,M8,Open-data resonance selection,planned_not_written,public_development,Grouping/source independence must be checked before split freeze; no human expert validation yet.
+F804,M8,Source-to-selection extraction and execution,planned_not_written,private_test_candidate,Grouping/source independence must be checked before split freeze; no human expert validation yet.
+F805,M8,Small simulation-to-observable pipeline,planned_not_written,private_test_candidate,Grouping/source independence must be checked before split freeze; no human expert validation yet.
+F806,M8,Control-region background estimate,planned_not_written,private_test_candidate,Grouping/source independence must be checked before split freeze; no human expert validation yet.
+F807,M8,Systematic variation and combined fit,planned_not_written,private_test_candidate,Grouping/source independence must be checked before split freeze; no human expert validation yet.
+F808,M8,Analysis repair with downstream closure,planned_not_written,private_test_candidate,Grouping/source independence must be checked before split freeze; no human expert validation yet.
+F809,M8,Blinded signal injection recovery,planned_not_written,private_test_candidate,Grouping/source independence must be checked before split freeze; no human expert validation yet.
+F810,M8,Unfolding toy closure,planned_not_written,private_test_candidate,Grouping/source independence must be checked before split freeze; no human expert validation yet.
+F811,M8,Reproducibility from clean workspace,planned_not_written,private_test_candidate,Grouping/source independence must be checked before split freeze; no human expert validation yet.
+F812,M8,Analysis report with artifact-linked claims,planned_not_written,private_test_candidate,Grouping/source independence must be checked before split freeze; no human expert validation yet.
