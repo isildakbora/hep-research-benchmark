@@ -1,5 +1,8 @@
+<!-- Updated: 2026-09-21T20:03:53+00:00; public access and self-test scope -->
 <!-- Created: 2026-09-21 22:13:12 +03 -->
 # HEP Research Benchmark — v0.1 tasarım ve başlangıç paketi
+
+LLM’e depoyu vererek geliştirme denemesi yaptırmak için: **[LLM öz değerlendirme yönergesi](SELF_TEST_TR.md)**. Cevap anahtarı da açıktır; bu kullanım kör benchmark değildir.
 
 GitHub'dan indirip ilk model denemesini yapmak için: **[Adım adım çalıştırma kılavuzu](RUN_GUIDE_TR.md)**.
 

@@ -1,11 +1,12 @@
+<!-- Updated: 2026-09-21T20:03:53+00:00; public repository access -->
 <!-- Created: 2026-09-21; private GitHub publication and operational guide -->
 # Birkaç LLM ile nasıl çalıştırılır?
 
 Mevcut sürüm görev hazırlama ve **dışarıda doğrulanmış puanları toplama** aracıdır. Modelleri otomatik çağıran bir API koşucusu veya yanıtları otomatik puanlayan hakem henüz yoktur. Sohbet arayüzüyle ya da kendi model API/ajan ortamınızla kullanılabilir. İlk smoke test için text profili en az kurulum gerektirir; nihai karşılaştırma için tüm modellerde aynı profil ve ayarlar korunur.
 
-## 1. Özel depoyu indir ve test et
+## 1. Açık depoyu indir ve test et
 
-GitHub hesabının bu private depoya erişimi olmalı. GitHub CLI kurulu ve oturum açıkken:
+Depo public olarak paylaşılır. Git ile kimlik doğrulaması olmadan klonlanabilir; GitHub CLI kullananlar için:
 
 ```bash
 gh repo clone isildakbora/hep-research-benchmark
@@ -14,7 +15,7 @@ python3 --version
 python3 -m unittest discover -s tests -v
 ```
 
-Python 3.10 veya üstü gerekir; 3.14.4 ile 20 test geçti. pip kurulumu gerekmez. Bu komutların hiçbiri LLM çağırmaz. GitHub CLI yerine kimlik doğrulaması yapılandırılmış git ile de klonlanabilir:
+Python 3.10 veya üstü gerekir; 3.14.4 ile 20 test geçti. pip kurulumu gerekmez. Bu komutların hiçbiri LLM çağırmaz. GitHub CLI yerine doğrudan git ile de klonlanabilir:
 
 ```bash
 git clone https://github.com/isildakbora/hep-research-benchmark.git
@@ -114,4 +115,4 @@ python3 scripts/score_results.py \
 
 Tek bir arayüzde önce işleyişi denemek için bir görevi çalıştırabilirsin; bu, bütün profil skorunu üretmez. Üç tekrarlı starter sonuçları geliştirme/kalibrasyon içindir; yayımlanacak model üstünlüğü iddiası için bağımsız uzman doğrulaması ve gizli test sürümü gerekir.
 
-`runs/`, yerel ortamlar ve credential dosyaları `.gitignore` ile dışarıda tutulur. Veri/sonuç paylaşımı gerektiğinde neyin gönderileceğine ayrıca karar verilir. Private depo içinde bulunan `public/` adı, yalnız geliştirme görevlerinin mantıksal adıdır; GitHub deposunun public olduğu anlamına gelmez.
+`runs/`, yerel ortamlar ve credential dosyaları `.gitignore` ile dışarıda tutulur. Veri/sonuç paylaşımı gerektiğinde neyin gönderileceğine ayrıca karar verilir. Depo ve başlangıç görevlerinin cevap anahtarları artık publictir. Gelecekteki gizli test görevleri/anahtarları bu depoya veya Git geçmişine eklenmemelidir. Bir LLM’e doğrudan depo erişimi vererek yapılan deneme için `SELF_TEST_TR.md` içindeki sınırlamalar geçerlidir.
